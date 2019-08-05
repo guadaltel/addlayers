@@ -1,0 +1,25 @@
+{
+  "url": {
+    "name": "AddLayers",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.AddLayers",
+  "parameters": [],
+  "files": {
+    "ol": {
+      "scripts": "addlayers.ol.min.js",
+      "styles": "addlayers.ol.min.css"
+    }
+  },
+  "metadata": {
+    "name": "AddLayers",
+    "description": "Adds layers to maps",
+    "text": "Allows addition of local layers and layers via url",
+    "version": "1.0.0",
+    "date": "July 9th, 2019",
+    "author": "",
+    "org": "Instituto de Estadística y Cartografía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
