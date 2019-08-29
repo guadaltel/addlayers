@@ -4,7 +4,15 @@
     "separator": "*"
   },
   "constructor": "M.plugin.AddLayers",
-  "parameters": [],
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "position": 0,
+      "possibleValues": ["TL", "TR", "BR", "BL"]
+    }]
+  }],
   "files": {
     "ol": {
       "scripts": "addlayers.ol.min.js",
@@ -14,7 +22,7 @@
   "metadata": {
     "name": "AddLayers",
     "description": "Adds layers to maps",
-    "text": "Allows addition of local layers and layers via url",
+    "text": "Allows upload of local layers",
     "version": "1.0.0",
     "date": "July 9th, 2019",
     "author": "",
