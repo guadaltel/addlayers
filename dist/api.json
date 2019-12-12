@@ -4,15 +4,7 @@
     "separator": "*"
   },
   "constructor": "M.plugin.AddLayers",
-  "parameters": [{
-    "type": "object",
-    "properties": [{
-      "type": "enum",
-      "name": "position",
-      "position": 0,
-      "possibleValues": ["TL", "TR", "BR", "BL"]
-    }]
-  }],
+  "parameters": [],
   "files": {
     "ol": {
       "scripts": "addlayers.ol.min.js",
@@ -21,10 +13,10 @@
   },
   "metadata": {
     "name": "AddLayers",
-    "description": "Adds layers to maps",
-    "text": "Allows upload of local layers",
-    "version": "1.0.0",
-    "date": "July 9th, 2019",
+    "description": "Añadir capas",
+    "text": "Permite añadir capas locales al mapa",
+    "version": "1.0.1",
+    "date": "Diciembre, 2019",
     "author": "",
     "org": "Instituto de Estadística y Cartografía",
     "tags": "mapea,plugin",
