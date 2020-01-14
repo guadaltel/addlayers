@@ -7,8 +7,8 @@
   "parameters": [],
   "files": {
     "ol": {
-      "scripts": "addlayers.ol.min.js",
-      "styles": "addlayers.ol.min.css"
+      "scripts": ["addlayers.ol.min.js"],
+      "styles": ["addlayers.ol.min.css"]
     }
   },
   "metadata": {
