@@ -1,6 +1,6 @@
 {
   "url": {
-    "name": "AddLayers",
+    "name": "addlayers",
     "separator": "*"
   },
   "constructor": "M.plugin.AddLayers",
@@ -15,10 +15,10 @@
     "name": "AddLayers",
     "description": "Añadir capas",
     "text": "Permite añadir capas locales al mapa",
-    "version": "1.0.1",
-    "date": "Diciembre, 2019",
+    "version": "1.1.0",
+    "date": "Junio, 2020",
     "author": "",
-    "org": "Instituto de Estadística y Cartografía",
+    "org": "Instituto de Estadística y Cartografía. Junta de Andalucía",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg",
     "centralized": true
